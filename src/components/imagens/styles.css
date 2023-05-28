@@ -1,0 +1,251 @@
+.estrela-do-mar {
+  position: absolute;
+  right: 17%;
+  top: 200px;
+  transform: rotate(230deg);
+}
+
+@media (max-width: 768px) {
+  .estrela-do-mar {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .estrela-do-mar {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 2560px) {
+  .estrela-do-mar {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.guarda-sol {
+  position: absolute;
+  right: 18%;
+  top: 600px;
+  transform: rotate(200deg);
+  z-index: 3;
+}
+
+@media (max-width: 2560px) {
+  .guarda-sol {
+    top: 600px;
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .guarda-sol {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .guarda-sol {
+    top: 550px;
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .guarda-sol {
+    top: 1000px;
+    right: 19%;
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 425px) {
+  .guarda-sol {
+    width: 0px;
+    height: 0px;
+  }
+}
+
+.guarda-sol:hover {
+  animation: growRotate2 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes growRotate2 {
+  0% {
+    transform: rotate(200deg);
+  }
+  50% {
+    transform: rotate(70deg);
+  }
+  100% {
+    transform: rotate(200deg);
+  }
+}
+
+.concha-do-mar {
+  position: absolute;
+  right: 37%;
+  top: 70px;
+  transform: rotate(240deg);
+}
+
+@media (max-width: 425px) {
+  .concha-do-mar {
+    top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .concha-do-mar {
+    right: 27%;
+    top: 50px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.folhas-de-coqueiro {
+  position: absolute;
+  left: -65px;
+  top: -20px;
+}
+
+.folhas-de-coqueiro2 {
+  position: absolute;
+  left: -115px;
+  top: 180px;
+}
+
+.folhas-de-coqueiro3 {
+  position: absolute;
+  left: -105px;
+  top: 380px;
+}
+
+.folhas-de-coqueiro4 {
+  position: absolute;
+  left: -115px;
+  top: 600px;
+}
+
+.folhas-de-coqueiro5 {
+  position: absolute;
+  left: -105px;
+  top: 850px;
+}
+
+.folhas-de-coqueiro6 {
+  position: absolute;
+  left: -115px;
+  top: 1000px;
+}
+
+.folhas-de-coqueiro7 {
+  position: absolute;
+  left: -125px;
+  top: 1200px;
+}
+
+.folhas-de-coqueiro8 {
+  position: absolute;
+  left: -95px;
+  top: 1400px;
+}
+
+.folhas-de-coqueiro:hover,
+.folhas-de-coqueiro2:hover,
+.folhas-de-coqueiro3:hover,
+.folhas-de-coqueiro4:hover,
+.folhas-de-coqueiro5:hover,
+.folhas-de-coqueiro6:hover,
+.folhas-de-coqueiro7:hover,
+.folhas-de-coqueiro8:hover {
+  animation: growRotate 0.5s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes growRotate {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(0deg);
+  }
+  75% {
+    transform: scale(1.2) rotate(10deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@media (max-width: 425px) {
+  .folhas-de-coqueiro,
+  .folhas-de-coqueiro2,
+  .folhas-de-coqueiro3,
+  .folhas-de-coqueiro4,
+  .folhas-de-coqueiro5,
+  .folhas-de-coqueiro6,
+  .folhas-de-coqueiro7,
+  .folhas-de-coqueiro8 {
+    left: -130px;
+  }
+}
+
+.toalha {
+  position: absolute;
+  right: 17%;
+  top: 675px;
+  z-index: 1;
+  transform: rotate(270deg);
+}
+
+@media (max-width: 2560px) {
+  .toalha {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .toalha {
+    top: 675px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .toalha {
+    top: 620px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toalha {
+    top: 1060px;
+    right: 19%;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (max-width: 425px) {
+  .toalha {
+    width: 0px;
+    height: 0px;
+  }
+}
