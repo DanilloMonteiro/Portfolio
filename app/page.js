@@ -79,7 +79,7 @@ export default function Home() {
         </div>
         <Image
           className="estrela-do-mar"
-          src="/../public/images/estrela-do-mar.png"
+          src="/images/estrela-do-mar.png"
           width={70}
           height={70}
         />
