@@ -7,7 +7,7 @@ export default function Icons() {
         <a href="https://github.com/DanilloMonteiro" target="_blank">
           <Image
             className="icon1"
-            src="/../public/images/github1.png"
+            src="/images/github1.png"
             width={70}
             height={70}
           />
@@ -18,7 +18,7 @@ export default function Icons() {
         >
           <Image
             className="icon2 "
-            src="/../public/images/linkedin1.png"
+            src="/images/linkedin1.png"
             width={70}
             height={70}
           />
@@ -26,7 +26,7 @@ export default function Icons() {
         <a href="mailto:danillo.monteiro324@outlook.com" target="_blank">
           <Image
             className="icon3"
-            src="/../public/images/email.png"
+            src="/images/email.png"
             width={70}
             height={70}
           />
@@ -37,7 +37,7 @@ export default function Icons() {
         >
           <Image
             className="icon4"
-            src="/../public/images/whatsapp1.png"
+            src="/images/whatsapp1.png"
             width={70}
             height={70}
           />
